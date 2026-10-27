@@ -1,5 +1,4 @@
 ## Ex. No: 3  DHCP Configuration Using a Router
-Date:
 ________________________________________
 # Objective
 To configure a router to automatically assign IP addresses to client PCs using the Dynamic Host Configuration Protocol (DHCP).
@@ -16,7 +15,7 @@ Description:<br>
 •	PC0 and PC1 are connected to Switch0.<br>
 •	Switch0 is connected to Router0 on FastEthernet0/0.<br>
 •	The router acts as a DHCP server for the connected LAN.<br>
-<img width="800" height="500" alt="image" src="https://github.com/user-attachments/assets/7d0d96f1-2429-4d0e-b2a8-ce2c0a04f07b" />
+<img width="1917" height="1077" alt="image" src="https://github.com/user-attachments/assets/3dd61c0d-53ac-41ae-96f1-8dd05ff40f72" />
 ________________________________________
 # IP Addressing Table
 Device	Interface	IP Address	Subnet Mask<br>
@@ -63,12 +62,14 @@ Router(dhcp-config)# exit<br>
 ________________________________________
 # Output (Screenshots)
 •	DHCP IP configuration shown in PC0 and PC1<br>
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/a389308c-b69d-424e-b6c5-930bd13c3887" />
+
 •	Router configuration screen<br>
+<img width="893" height="950" alt="image" src="https://github.com/user-attachments/assets/9649106a-2c03-4442-8b8a-c01cb4ba4423" />
+
 •	Successful ping test between the two PCs<br>
-<img width="800" height="500" alt="image" src="https://github.com/user-attachments/assets/f5e25884-ab23-4392-95a7-a7e389b3a723" />
-<img width="800" height="500" alt="image" src="https://github.com/user-attachments/assets/41e722b2-17b2-4119-b8d4-e225636121c5" />
-<img width="800" height="500" alt="image" src="https://github.com/user-attachments/assets/d25b9d6b-5b16-4c2b-8a09-f51b7cf6429e" />
-<img width="800" height="498" alt="image" src="https://github.com/user-attachments/assets/682708e1-b4bb-4fb0-8550-66fa725a05b6" />
+<img width="1917" height="1078" alt="image" src="https://github.com/user-attachments/assets/bc94bc7b-a99b-4825-89be-f6fcb007e15b" />
+<img width="1917" height="1078" alt="image" src="https://github.com/user-attachments/assets/8a5debc1-5fd3-4dd7-814e-806c7fa645a5" />
 
 ________________________________________
 # Result
